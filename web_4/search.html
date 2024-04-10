@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>search page</title>
+    </head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .jumbotron {
+			background-color: #f4511e; /* Orange */
+			color: #ffffff;
+			padding: 8%;
+		}
+		.navbar {
+			margin-bottom: 0;
+			background-color: rgb(98, 102, 104);
+			z-index: 9999;
+			border: 0;
+			font-size: 12px !important;
+			line-height: 1.42857143 !important;
+			letter-spacing: 4px;
+			border-radius: 0;
+			height: 80px;
+		}
+		
+		.navbar li a, .navbar .navbar-brand {
+			color: #fff !important;
+		}
+		
+		.navbar-nav li a:hover, .navbar-nav li.active a {
+			color: red !important;
+		}
+		
+		.navbar-default .navbar-toggle {
+			border-color: transparent;
+			color: #0fb9d0 !important;
+		}
+		#button1{
+			background-color: orange; 
+			color: black;
+			border-radius: 8px;
+		}
+		#button{
+			background-color: red;
+			color: black;
+			border-radius: 8px;
+		}
+    </style>
+</html>
+<body>
+    <div class="container-fluid">
+		<header class="head">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="#about">	<img src="images/logo.png" style="height: 70px;"></a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right" style="padding-top:1%">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="signup.html">SIGNUP</a></li>
+							<li><a href="#contact">CONTACT</a></li>
+							<li><a href="admin.html">ADMIN PANEL</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" style="background-color:silver;">
+									<li><a href="profile.html">Profile</a></li>
+									<li><a href="index.html">sign out</a></li>
+									<li><a href="login_with_otp.html">Login with OTP</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav> 
+		</header>
+		<div class="jumbotron text-center">
+			<h1>Search page</h1>
+		</div>
+		<div class="container">
+			<span class="glyphicon glyphicon-pencil"></span> <input type="submit" value="Update"  id="button1"><br><br>
+			<span class="glyphicon glyphicon-trash"></span> <input type="submit" value="Delete" id="button" ><br>
+			<p>User_id 10 name: dev email: dev@gmail.com Phone:1234567890</p>
+		</div>
+		<footer class="container-fluid bg-4 text-center" style=" background-color: rgb(98, 102, 104);">
+			<p>Ⓒ 2024 flask api. All Rights Reserved | Design by<a href="https://mentorx.online/"><img src="images/logo.png" style="height: 40px;"></a></p>
+				<p>Thanks for visit our site in<a href="https://github.com/somanathgumudi"><img src="images/logo.png" style="height: 40px;"></a></p>
+		  </footer>
+	</body>
+</html>
